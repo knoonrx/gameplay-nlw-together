@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { theme } from '../global/styles/theme';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
     container: {
@@ -21,7 +21,6 @@ export const styles = StyleSheet.create({
     icon: {
 
     },
-
     title: {
         flex: 1,
         color: theme.colors.heading,
